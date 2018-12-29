@@ -1,0 +1,1 @@
+dotnet ef migrations script -s ./Bug.Data.EntityFramework.MigrationUtil/Bug.Data.EntityFramework.MigrationUtil.csproj -p ./Bug.Data.EntityFramework/Bug.Data.EntityFramework.csproj -o ./migrations.sql  | Tee-Object -file ./script-migration-working-OUTPUT.txt
